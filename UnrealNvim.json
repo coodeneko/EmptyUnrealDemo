@@ -1,0 +1,22 @@
+{
+    "version" : "0.0.2",
+    "_comment": "dont forget to escape backslashes in EnginePath",    
+    "EngineDir": "",
+    "Targets":  [
+        {
+            "TargetName" : "MainModuleEditor",
+            "Configuration" : "Development",
+            "withEditor" : true,
+            "UbtExtraFlags" : "",
+            "PlatformName" : "Win64"
+        },
+        {
+            "TargetName" : "MainModule",
+            "Configuration" : "Development",
+            "withEditor" : false,
+            "UbtExtraFlags" : "",
+            "PlatformName" : "Win64"
+        }
+    ]
+}
+    
